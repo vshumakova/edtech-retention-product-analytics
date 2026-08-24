@@ -1,6 +1,4 @@
-# Cifrium Retention Intelligence
-
-**Product Analytics · Machine Learning · Experimentation**
+# Edtech Retention Product Analytics
 
 An end-to-end retention analytics project for an online education platform: identify the critical churn point, detect early disengagement by Day 14, prioritize students for intervention, and define how to measure incremental business impact.
 
