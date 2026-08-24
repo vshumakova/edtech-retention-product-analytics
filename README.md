@@ -1,6 +1,4 @@
-# Cifrium Retention Intelligence
-
-**Product Analytics · Machine Learning · Experimentation · Streamlit**
+# Edtech Retention Product Analytics
 
 An end-to-end retention analytics project for an online education platform. The goal is to identify the main retention bottleneck, detect early disengagement by Day 14 of learning, prioritize students for proactive intervention, and define how the business should measure causal impact.
 
