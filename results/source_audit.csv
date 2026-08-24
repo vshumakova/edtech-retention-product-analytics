@@ -1,0 +1,11 @@
+source,status,role,leakage_policy
+stats__module_1.csv,Used,"Population, cohort mapping, matured target",Final status only as target; final progress excluded
+groups.csv,Used,Actual learning-start anchor,Schedule fields are pre-outcome context
+wk_media_view_sessions.csv,Used,D14 media engagement and cadence,started_at must be within D14
+user_trainings.csv,Used,D14 training starts and safely matured outcomes,Final training metrics only if finished/marked by D14
+trainings.csv,Used,Static training metadata,Difficulty/task capacity only
+users_courses.csv,"Audited, not selected",Course-account timing/context,Current state/points excluded; limited incremental Top-K value
+user_access_histories.csv,"Audited, not selected",Access timing/context,Only access grants known by D14; limited incremental Top-K value
+user_activity_histories.csv,Not selected,Potential LMS activity,Requires user_lessons mapping
+user_lessons.csv,Not loaded into final pipeline,Mapping for LMS events,Raw file exceeds connector download limit in this environment
+user_answers.csv,Not loaded into final pipeline,Potential task-answer events,Very large raw file; training table provides safer scalable task signal

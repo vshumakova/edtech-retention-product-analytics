@@ -1,0 +1,5 @@
+model,roc_auc,pr_auc,brier,precision_at_20,recall_at_20,lift_at_20
+Logistic Regression — media + training,0.916538,0.8153,0.11336,0.853659,0.558511,2.792553
+Logistic Regression — all audited,0.917715,0.816757,0.110748,0.804878,0.526596,2.632979
+Random Forest — media only,0.903938,0.770493,0.122645,0.837398,0.547872,2.739362
+CatBoost — media only,0.903689,0.768795,0.172679,0.829268,0.542553,2.712766

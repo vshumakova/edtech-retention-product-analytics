@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760">
+<rect width="1400" height="760" rx="28" fill="#0b1020"/>
+<rect x="28" y="28" width="1344" height="704" rx="22" fill="#111827" stroke="#26324a"/>
+<text x="72" y="90" fill="#f8fafc" font-family="Arial, sans-serif" font-size="34" font-weight="700">Cifrium Retention Intelligence</text>
+<text x="72" y="124" fill="#94a3b8" font-family="Arial, sans-serif" font-size="18">D14 early-warning system · product analytics · capacity-aware churn prioritization</text>
+
+<g font-family="Arial, sans-serif">
+  <rect x="72" y="166" width="285" height="128" rx="18" fill="#172033" stroke="#334155"/>
+  <text x="94" y="201" fill="#94a3b8" font-size="15">CRITICAL FUNNEL LOSS</text>
+  <text x="94" y="252" fill="#f8fafc" font-size="42" font-weight="700">36%</text>
+  <text x="94" y="278" fill="#94a3b8" font-size="14">Module 1 → Module 2</text>
+
+  <rect x="385" y="166" width="285" height="128" rx="18" fill="#172033" stroke="#334155"/>
+  <text x="407" y="201" fill="#94a3b8" font-size="15">PRECISION @ TOP 20%</text>
+  <text x="407" y="252" fill="#f8fafc" font-size="42" font-weight="700">85.4%</text>
+  <text x="407" y="278" fill="#94a3b8" font-size="14">High-risk queue accuracy</text>
+
+  <rect x="698" y="166" width="285" height="128" rx="18" fill="#172033" stroke="#334155"/>
+  <text x="720" y="201" fill="#94a3b8" font-size="15">RECALL @ TOP 20%</text>
+  <text x="720" y="252" fill="#f8fafc" font-size="42" font-weight="700">55.9%</text>
+  <text x="720" y="278" fill="#94a3b8" font-size="14">Future churners captured</text>
+
+  <rect x="1011" y="166" width="285" height="128" rx="18" fill="#172033" stroke="#334155"/>
+  <text x="1033" y="201" fill="#94a3b8" font-size="15">LIFT @ TOP 20%</text>
+  <text x="1033" y="252" fill="#f8fafc" font-size="42" font-weight="700">2.79×</text>
+  <text x="1033" y="278" fill="#94a3b8" font-size="14">vs. random targeting</text>
+
+  <text x="72" y="352" fill="#f8fafc" font-size="22" font-weight="700">Retention funnel</text>
+  <rect x="72" y="380" width="720" height="300" rx="18" fill="#0f172a" stroke="#26324a"/>
+  <text x="102" y="425" fill="#cbd5e1" font-size="15">M1</text>
+  <rect x="150" y="405" width="560" height="32" rx="8" fill="#64748b"/>
+  <text x="725" y="427" fill="#f8fafc" font-size="15">100</text>
+  <text x="102" y="485" fill="#cbd5e1" font-size="15">M2</text>
+  <rect x="150" y="465" width="358" height="32" rx="8" fill="#64748b"/>
+  <text x="523" y="487" fill="#f8fafc" font-size="15">64</text>
+  <text x="102" y="545" fill="#cbd5e1" font-size="15">M3</text>
+  <rect x="150" y="525" width="327" height="32" rx="8" fill="#64748b"/>
+  <text x="492" y="547" fill="#f8fafc" font-size="15">58.4</text>
+  <text x="102" y="605" fill="#cbd5e1" font-size="15">M4</text>
+  <rect x="150" y="585" width="307" height="32" rx="8" fill="#64748b"/>
+  <text x="472" y="607" fill="#f8fafc" font-size="15">54.8</text>
+  <text x="102" y="652" fill="#94a3b8" font-size="14">Largest loss happens before Module 2 → primary intervention zone</text>
+
+  <text x="840" y="352" fill="#f8fafc" font-size="22" font-weight="700">D14 decision system</text>
+  <rect x="840" y="380" width="456" height="300" rx="18" fill="#0f172a" stroke="#26324a"/>
+  <circle cx="890" cy="427" r="18" fill="#334155"/><text x="884" y="433" fill="#f8fafc" font-size="16">1</text>
+  <text x="925" y="433" fill="#e2e8f0" font-size="17">Measure retention bottleneck</text>
+  <circle cx="890" cy="478" r="18" fill="#334155"/><text x="884" y="484" fill="#f8fafc" font-size="16">2</text>
+  <text x="925" y="484" fill="#e2e8f0" font-size="17">Score students at Day 14</text>
+  <circle cx="890" cy="529" r="18" fill="#334155"/><text x="884" y="535" fill="#f8fafc" font-size="16">3</text>
+  <text x="925" y="535" fill="#e2e8f0" font-size="17">Prioritize Top-20% risk queue</text>
+  <circle cx="890" cy="580" r="18" fill="#334155"/><text x="884" y="586" fill="#f8fafc" font-size="16">4</text>
+  <text x="925" y="586" fill="#e2e8f0" font-size="17">Intervene with curator outreach</text>
+  <circle cx="890" cy="631" r="18" fill="#334155"/><text x="884" y="637" fill="#f8fafc" font-size="16">5</text>
+  <text x="925" y="637" fill="#e2e8f0" font-size="17">A/B test causal retention uplift</text>
+</g>
+</svg>
