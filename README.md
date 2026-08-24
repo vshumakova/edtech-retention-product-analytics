@@ -1,6 +1,4 @@
-# Cifrium — Early Churn Detection at Day 14
-
-**Product Analytics + Machine Learning case**
+# Cifrium — Early Churn Detection
 
 Cifrium is an online education platform with a four-module course. The key retention problem is concentrated at the beginning of the journey: **36% of students are lost between modules 1 and 2**.
 
