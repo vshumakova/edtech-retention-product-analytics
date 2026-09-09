@@ -13,8 +13,8 @@ data/
 ├── stats__module_1.csv
 ├── groups.csv
 ├── wk_media_view_sessions.csv
-├──user_trainings.csv
-└──trainings.csv
+├── user_trainings.csv
+└── trainings.csv
 ```
 
 ## Public dashboard data
