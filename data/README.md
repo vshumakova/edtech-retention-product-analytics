@@ -12,42 +12,10 @@ To rerun the complete analytical pipeline and retrain the model locally, place t
 data/
 ├── stats__module_1.csv
 ├── groups.csv
-└── wk_media_view_sessions.csv
+├── wk_media_view_sessions.csv
+├──user_trainings.csv
+└──trainings.csv
 ```
-
-### `stats__module_1.csv`
-
-Student-level Module 1 data used to define the analytical population and the matured churn target.
-
-The final student status is used **only as the target variable**. Final progress and whole-module outcome fields are not used as D14 predictors.
-
-### `groups.csv`
-
-Schedule data used to reconstruct the actual start of learning.
-
-The project maps:
-
-```text
-stats.id параллели
-        ↕
-groups.group_template_id
-        ↓
-min(groups.starts_at) = learning_start
-```
-
-This is important because the administrative enrollment date can precede the actual course start by several weeks.
-
-### `wk_media_view_sessions.csv`
-
-Timestamped media-viewing events used to construct early behavioral features.
-
-Only events inside the observation window are eligible:
-
-```text
-learning_start <= event_timestamp <= learning_start + 14 days
-```
-
-This point-in-time restriction is a core part of the leakage-prevention design.
 
 ## Public dashboard data
 
